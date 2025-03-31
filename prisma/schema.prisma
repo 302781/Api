@@ -14,8 +14,8 @@ datasource db {
 }
 
 model Usario{
-  id String @id @default{auto{}} @map("_id") @db.ObjectId
-  email String @unique
-  name String
-  age String
+  id String @id @default{auto{}} @map("_id") @db.ObjectId,
+  email String @unique,
+  name String,
+  age String,
 }
