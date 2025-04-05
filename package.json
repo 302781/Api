@@ -1,5 +1,5 @@
 {
-  "name": "Api",
+  "name": "api",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
@@ -24,7 +24,8 @@
         "node": ">= 0.6"
       }
     }
-    // ...restante do arquivo...
+  },
+  "dependencies": {
+    "@prisma/client": "^6.5.0"
   }
 }
-
